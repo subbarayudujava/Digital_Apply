@@ -38,7 +38,7 @@ public class CustomerApplication {
     private String email;
 
     @NotBlank(message = "Address is required")
-    @Size(max = 200, message = "Address cannot exceed 200 characters")
+    @Size(max = 200, message = "Address cannot exceed 200 character")
     private String address;
 
     @NotNull(message = "Income is required")
