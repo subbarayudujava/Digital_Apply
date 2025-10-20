@@ -1,0 +1,36 @@
+2025-10-19T19:43:03.317+05:30  INFO 892 --- [main] ringBootDigitalAppleyUsaFirstApplication : Starting SpringBootDigitalAppleyUsaFirstApplication using Java 21.0.4 with PID 892 (C:\S_T_S_program\SpringBoot_Digital_Appley_USA_First\target\classes started by subba in C:\S_T_S_program\SpringBoot_Digital_Appley_USA_First)
+2025-10-19T19:43:03.322+05:30 DEBUG 892 --- [main] ringBootDigitalAppleyUsaFirstApplication : Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-10-19T19:43:03.323+05:30  INFO 892 --- [main] ringBootDigitalAppleyUsaFirstApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-19T19:43:05.230+05:30  INFO 892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-19T19:43:05.461+05:30  INFO 892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218 ms. Found 1 JPA repository interfaces.
+2025-10-19T19:43:07.719+05:30  INFO 892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-10-19T19:43:07.733+05:30  INFO 892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-19T19:43:07.733+05:30  INFO 892 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-10-19T19:43:07.869+05:30  INFO 892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-19T19:43:07.869+05:30  INFO 892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4451 ms
+2025-10-19T19:43:08.400+05:30  INFO 892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-19T19:43:08.496+05:30  INFO 892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-10-19T19:43:08.499+05:30  INFO 892 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-10-19T19:43:08.887+05:30  INFO 892 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-19T19:43:08.926+05:30  INFO 892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-19T19:43:08.931+05:30  WARN 892 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-10-19T19:43:10.705+05:30  INFO 892 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6a543e09
+2025-10-19T19:43:10.709+05:30  INFO 892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-19T19:43:11.163+05:30  WARN 892 --- [main] org.hibernate.orm.deprecation            : HHH90000025: Oracle12cDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-19T19:43:11.165+05:30  WARN 892 --- [main] org.hibernate.orm.deprecation            : HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+2025-10-19T19:43:12.794+05:30  INFO 892 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-19T19:43:36.617+05:30  INFO 892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-19T19:43:37.172+05:30  WARN 892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-19T19:43:37.892+05:30  INFO 892 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2025-10-19T19:43:37.968+05:30  INFO 892 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4bfaff23, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47bae235, org.springframework.security.web.context.SecurityContextHolderFilter@45f32b12, org.springframework.security.web.header.HeaderWriterFilter@622e39d, org.springframework.security.web.authentication.logout.LogoutFilter@486d1868, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@42c9c0a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bbeb9e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31a9eaa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f588bc6, org.springframework.security.web.access.ExceptionTranslationFilter@2e41e0c, org.springframework.security.web.access.intercept.AuthorizationFilter@40a2fdd2]
+2025-10-19T19:43:38.636+05:30  INFO 892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-10-19T19:43:38.655+05:30  INFO 892 --- [main] ringBootDigitalAppleyUsaFirstApplication : Started SpringBootDigitalAppleyUsaFirstApplication in 36.247 seconds (process running for 37.514)
+2025-10-19T19:43:39.275+05:30  INFO 892 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-19T19:43:39.275+05:30  INFO 892 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-19T19:43:39.277+05:30  INFO 892 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-19T19:50:11.994+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-19T19:50:12.007+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-19T19:50:12.008+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-10-19T19:50:12.021+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-19T19:50:12.024+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-19T19:50:12.050+05:30  INFO 892 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
